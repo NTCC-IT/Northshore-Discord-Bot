@@ -9,7 +9,7 @@ TOKEN = os.getenv("BOT_TOKEN")
 bot = commands.Bot(command_prefix="/", intents=discord.Intents.all())
 
 @bot.event
-async def on_ready();
+async def on_ready():
     print("I'm ready for action, or breaking, whichever comes first.")
 
 bot.run(TOKEN)
